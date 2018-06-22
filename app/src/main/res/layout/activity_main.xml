@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/snapBtn"
+        android:id="@+id/snapButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -19,12 +19,12 @@
         android:text="Snap" />
 
     <Button
-        android:id="@+id/detectBtn"
+        android:id="@+id/detectButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/snapBtn"
+        android:layout_alignTop="@+id/snapButton"
         android:layout_marginEnd="43dp"
         android:layout_marginRight="43dp"
         android:text="Detect" />
@@ -39,7 +39,7 @@
         app:srcCompat="@android:color/background_light" />
 
     <TextView
-        android:id="@+id/txtView"
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
